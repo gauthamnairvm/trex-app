@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pkl
+*.npy
+*.npz
+*.csv
+*.tsv
+*.log
+.env
+results/
+data/
+.idea/
+.vscode/

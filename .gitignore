@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.npy
+*.pkl
+*.csv
+results/
+data/
+.env
+.env.*
+*.zip
+*.tar.gz
+data/*.npy
+data/*.csv
