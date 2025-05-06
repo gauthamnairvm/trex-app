@@ -1,13 +1,64 @@
+# Byte-compiled / cache files
 __pycache__/
-*.pyc
+*.py[cod]
+*.so
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+.env/
+*.env
+
+# Logs and outputs
+*.log
+*.out
+*.err
+
+# Model and data artifacts
 *.npy
 *.pkl
+*.pt
 *.csv
-results/
+*.sqlite
+*.db
+
+# Application-specific folders
 data/
-.env
-.env.*
+results/
+outputs/
+checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+
+# Archives
 *.zip
 *.tar.gz
-data/*.npy
-data/*.csv
+
+# Docker / build artifacts
+*.img
+*.tar
+*.bak
+*.pid
+build/
+dist/
+
+# Compiled binaries and executables
+*.exe
+*.dll
+*.so
+
+# Package installers
+*.egg
+*.egg-info/
+.eggs/
+
+# PyInstaller
+*.spec
+
+# Test cache
+.pytest_cache/
