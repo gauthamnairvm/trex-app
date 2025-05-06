@@ -10,6 +10,8 @@ T.REX is an interactive command-line tool designed to simplify text exploration 
 - Text-to-SQL powered by LLaMA3 via Groq API
 - CLI-style prompts with popups and intermediate saves
 
+---
+
 ## 🐳 Docker Quickstart
 
 ### 1. Build Docker Image
@@ -21,6 +23,17 @@ docker build -t trex-app .
 ```bash
 docker run -it --rm   -v $(pwd)/data:/app/data   -v $(pwd)/results:/app/results   --env-file .env   trex-app
 ```
+
+On Windows Powershell run the following:
+```bash
+docker run -it --rm `
+  -v ${PWD}/data:/app/data `
+  -v ${PWD}/results:/app/results `
+  --env-file .env `
+  trex-app
+```
+
+---
 
 ## 📁 Expected Folder Structure
 
@@ -51,6 +64,7 @@ TREX/
 ├── main.py
 └── requirements.txt
 ```
+---
 
 ## 🔐 Environment Variables
 
