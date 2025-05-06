@@ -76,7 +76,6 @@ if __name__ == '__main__':
 
                 elif cmd == "trex_cluster()":
                     try:
-                        # Ensure data exists
                         embedding_path = "data/initial_embeddings.npy"
                         metadata_path = "data/embedding_metadata.csv"
 
