@@ -115,4 +115,19 @@ To contribute:
 
 ---
 
+⚠️ Limitations
+T.REX is under active development. The current version has the following limitations:
+
+> Limited Pipelines: Only four pipelines are supported at present — EDA, Deduplication, Clustering, and Text2SQL.
+
+> File Format Restriction: Currently supports only .csv files. Other formats (e.g., Excel, JSON) are not yet supported.
+
+> Single Text Column Design: Each session supports only one designated text column, with the rest treated as metadata(if preferred). If a different text/metadata column is required, the file must be reloaded.
+
+> Startup Instability: Occasionally, the GUI file loader popup may fail on the first try. Restarting the session usually resolves the issue.
+
+> Fixed LLM Configuration: Uses a single Groq-hosted model (llama3-70b-8192). Prompts use hardcoded settings (temperature, max_tokens, stop), with no dynamic tuning. API key must be provided in the .env file for usage of pipelines with LLM integration.
+
+---
+
 Built and maintained by `Variath Madhupal Gautham Nair (MSCS Rutgers University-New Brunswick)`
