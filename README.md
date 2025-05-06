@@ -106,7 +106,7 @@ You’re free to use, modify, and distribute it. Please give credit if you build
 
 ## 🤝 Contributions
 
-We welcome issues, suggestions, and pull requests.  
+TREX is open for issues, suggestions, and pull requests.  
 To contribute:
 
 1. Fork the repo
